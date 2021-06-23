@@ -703,6 +703,21 @@ img {
   &__menu-white{
     color: white;
   }
+  &__menu-abs{
+    color: white;
+    position: relative;
+    &:before{
+      position: absolute;
+      content: "$";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 160%;
+      left: 137px;
+      top: 17px;
+      font-family: "Poppin", sans-serif;
+      color: white;
+    }
+  }
   &__link {
     font-family: "Lato", sans-serif;
     font-style: normal;
