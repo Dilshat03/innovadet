@@ -648,7 +648,6 @@ img {
 
   &__box-pink {
     background: linear-gradient(180deg, #D95374 0%, #D32852 100%);
-    color: white;
   }
 
   &__box-title {
@@ -657,8 +656,10 @@ img {
     line-height: 150%;
     color: #050C26;
     padding: 45px 0;
-    background: #FFFFFF;
     border-bottom: 2px solid rgba(153, 153, 153, 0.14);
+  }
+  &__box-title-pink{
+    background: linear-gradient(180deg, #D95374 0%, #D32852 100%);
     border-radius: 10px 10px 0 0;
   }
 
@@ -699,7 +700,9 @@ img {
     color: #575859;
     margin-bottom: 15px;
   }
-
+  &__menu-white{
+    color: white;
+  }
   &__link {
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -712,5 +715,10 @@ img {
     border: 2px solid #3988FF;
     display: inline-block;
     margin-top: 15px;
+  }
+  &__link-pink{
+    color: #FFFFFF;
+    background: #3988FF;
+    border: none;
   }
 }
