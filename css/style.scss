@@ -560,15 +560,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  color: cornSilk;
 }
 
-/* front pane, placed above back */
-.front {
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-}
 
 /* back, initially hidden pane */
 .back {
