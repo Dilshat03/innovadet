@@ -40,7 +40,9 @@ img {
   margin: 0 auto;
   width: 100%;
 }
-
+.burger-menu{
+  display: none;
+}
 .header {
   padding-top: 51px;
   z-index: 2;
@@ -434,7 +436,7 @@ img {
   &__link {
     font-weight: normal;
     font-size: 18px;
-    line-height: 160%;
+    line-height: 162%;
     color: #FFFFFF;
     display: inline-block;
     background: #3988FF;
@@ -494,7 +496,6 @@ img {
 
   &__box-abs {
     position: absolute;
-    margin: auto;
     right: 40px;
     left: 40px;
     background: #F3F3F3;
@@ -565,7 +566,6 @@ img {
   top: 0;
   left: 0;
   color: cornSilk;
-  text-align: center;
 }
 
 /* front pane, placed above back */
@@ -791,6 +791,8 @@ img {
     font-style: italic;
     text-align: left;
     position: relative;
+    margin-top: 40px;
+    margin-left: 51px;
     svg{
       position: absolute;
       left: -44px;
@@ -812,7 +814,6 @@ img {
     text-align: left;
   }
   &__img{
-    margin-left: -46px;
     margin-top: 30px;
   }
 }
@@ -825,6 +826,9 @@ img {
   border-radius: 20px;
   width: 40px;
   height: 11px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: -5px;
 }
 .owl-theme .owl-dots .owl-dot span {
   background: rgba(57,136,255, 0.1);
