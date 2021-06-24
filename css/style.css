@@ -13,6 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   color: #5A6482;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -59,6 +60,10 @@ img {
   display: flex;
   align-items: center;
   margin: 0;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
 }
 .header__btn {
   background: #3988FF;
