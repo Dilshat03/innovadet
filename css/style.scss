@@ -536,10 +536,7 @@ img {
   }
 }
 
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000px;
-}
+
 
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -549,7 +546,6 @@ img {
 .flip-container, .front, .back {
   width: 360px;
   height: 413px;
-
 }
 
 /* flip speed goes here */
