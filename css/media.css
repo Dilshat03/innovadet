@@ -656,5 +656,8 @@
     .reviews__name {
         margin: 29px 0 5px 0;
     }
+    .services__grid {
+        grid-row-gap: 35px;
+    }
 
 }

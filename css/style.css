@@ -435,6 +435,7 @@ img {
   border-radius: 10px;
   height: 413px;
   background: url("../images/Rectangle 42 (1).png") no-repeat;
+  transition: 0.6s;
 }
 .services__box-abs {
   position: absolute;
@@ -445,6 +446,19 @@ img {
   height: 333px;
   top: 40px;
   text-align: center;
+  transition: 0.6s;
+}
+.services__box:hover {
+  background-image: url("../images/Rectangle 26 (3).png");
+}
+.services__box-abs:hover {
+  background: linear-gradient(180deg, #D93059 0%, #D95B7A 100%);
+}
+.services__box-abs:hover p {
+  color: white;
+}
+.services__box-abs:hover h4 {
+  color: white;
 }
 .services__title {
   font-weight: 500;
@@ -471,35 +485,6 @@ img {
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg);
-}
-
-.flip-container, .front, .back {
-  width: 360px;
-  height: 413px;
-}
-
-/* flip speed goes here */
-.flipper {
-  transition: 1s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg);
 }
 
 .price {
