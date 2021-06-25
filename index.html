@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
           rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
@@ -133,10 +134,10 @@
                 statistical surveying too, and may even be associated.
             </p>
             <div class="transform__progress">
-                <div class="transform__img">
+                <div class="transform__img" data-aos="fade-right">
                     <img src="./images/Rectangle%2021.png" width="600">
                 </div>
-                <div class="transform__line">
+                <div class="transform__line" data-aos="fade-left">
                     <div class="transform__web">
                         <p>
                             Web Design
@@ -262,7 +263,7 @@
     </section>
     <section class="services">
         <div class="container">
-            <svg class="point" width="499" height="237" viewBox="0 0 499 237" fill="none"
+            <svg class="point" data-aos="fade-left" width="499" height="237" viewBox="0 0 499 237" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.06">
                     <path d="M5.62386 11.2476C8.7298 11.2476 11.2476 8.72974 11.2476 5.6238C11.2476 2.51786 8.7298 0 5.62386 0C2.51792 0 0 2.51786 0 5.6238C0 8.72974 2.51792 11.2476 5.62386 11.2476Z"
@@ -463,10 +464,10 @@
                           fill="#DD6969"/>
                 </g>
             </svg>
-            <h2 class="services__subtitle">
+            <h2 class="services__subtitle" data-aos="fade-right">
                 Our best services to solve Your problems.
             </h2>
-            <p class="services__desc">
+            <p class="services__desc" data-aos="fade-right">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor tincidunt neque vulputate vel sit ornare
                 in
                 ac. Aenean integer amet viverra sed gravida.
@@ -496,27 +497,6 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="back">-->
-<!--                            <div class="services__box-abs">-->
-<!--                                <h4 class="services__title">-->
-<!--                                    Web Development-->
-<!--                                </h4>-->
-<!--                                <p class="services__info">-->
-<!--                                    Lorem ipsum dolor sit ame consectetur elit.-->
-<!--                                </p>-->
-<!--                                <a href="#" class="services__btn">-->
-<!--                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"-->
-<!--                                         xmlns="http://www.w3.org/2000/svg">-->
-<!--                                        <path d="M8 1V15" stroke="#050C26" stroke-width="2" stroke-linecap="round"-->
-<!--                                              stroke-linejoin="round"/>-->
-<!--                                        <path d="M15 8L8 15L1 8" stroke="#050C26" stroke-width="2"-->
-<!--                                              stroke-linecap="round"-->
-<!--                                              stroke-linejoin="round"/>-->
-<!--                                    </svg>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <img src="./images/Rectangle%2026%20(2).png" class="services__img" alt="">-->
-<!--                        </div>-->
                     </div>
                 </div>
                 <div class="flip-container" >
@@ -1062,12 +1042,20 @@
     </footer>
 </main>
 
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="./js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+    AOS.init({
+        duration:1500,
+    });
+        // Accepts any class name
+        var rellax = new Rellax('.rellax');
+</script>
 </body>
 </html>
 
